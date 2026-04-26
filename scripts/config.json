@@ -1,0 +1,21 @@
+{
+  "models": [
+    {
+      "provider": "gemini",
+      "model": "gemini-1.5-pro",
+      "api_key": "ENV:GEMINI_API_KEY"
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o",
+      "api_key": "ENV:OPENAI_API_KEY"
+    },
+    {
+      "provider": "claude",
+      "model": "claude-3-5-sonnet-20241022",
+      "api_key": "ENV:ANTHROPIC_API_KEY"
+    }
+  ],
+  "retry_limit": 2,
+  "timeout_seconds": 30
+}
