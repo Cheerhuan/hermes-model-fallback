@@ -1,4 +1,12 @@
+<div align="center">
+
 # 🛡️ Hermes Model Fallback Skill
+
+<img src="assets/logo.jpg" width="600" alt="Hermes Model Fallback Logo">
+
+</div>
+
+
 
 **The ultimate resilience layer for AI Agents. No more 429s, 503s, or hanging processes.**
 
