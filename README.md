@@ -43,7 +43,11 @@
 ### 1. Install | 安裝
 **For Hermes/OpenClaw Agent:**
 ```bash
+# Hermes Agent
 git clone https://github.com/cheerhuan/hermes-model-fallback.git ~/.hermes/skills/hermes-model-fallback
+
+# OpenClaw Agent
+git clone https://github.com/cheerhuan/hermes-model-fallback.git ~/.openclaw/skills/hermes-model-fallback
 ```
 **For General Development:**
 ```bash
