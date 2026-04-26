@@ -119,7 +119,7 @@ User Request
 ## Files in This Skill
 
 ```
-hermes-fallback-skill/
+hermes-model-fallback/
 ├── SKILL.md                    ← You are here
 ├── scripts/
 │   ├── config.json             ← Your model list & API keys
