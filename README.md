@@ -70,45 +70,7 @@ Edit `scripts/config.json` to define your models and API keys (Use `ENV:VAR_NAME
 - **Python:** `from scripts.fallback_client import FallbackClient`
 - **JS:** `const { FallbackClient } = require('./scripts/fallbackClient')`
 |
-## 🚀 Quick Start | 快速上手
-
-### 1. Install | 安裝
-**For Hermes/OpenClaw Agent:**
-```bash
-git clone https://github.com/cheerhuan/hermes-model-fallback.git ~/.hermes/skills/hermes-model-fallback
-```
-**For General Development:**
-```bash
-git clone https://github.com/cheerhuan/hermes-model-fallback.git
-```
-
-### 2. Configure | 設定
-Edit `scripts/config.json` to define your models and API keys (Use `ENV:VAR_NAME` for security):
-```json
-{
-  "models": [
-    { "provider": "gemini", "model": "gemini-1.5-pro", "api_key": "ENV:GEMINI_KEY" },
-    { "provider": "openai", "model": "gpt-4o", "api_key": "ENV:OPENAI_KEY" },
-    { "provider": "ollama", "model": "llama3", "api_key": "" }
-  ],
-  "retry_limit": 2,
-  "timeout_seconds": 30
-}
-```
-
-### 3. Use | 使用
-**As an Agent Skill:** Just restart your Agent. It will now automatically handle 429/503 errors.
-**In your own Code:**
-- **Python:** `from scripts.fallback_client import FallbackClient`
-- **JS:** `const { FallbackClient } = require('./scripts/fallbackClient')`
-
-
----
-
-
----
-
-## 📁 Structure | 結構|## 📁 Structure | 結構|## 📁 Structure | 結構
+## 📁 Structure | 結構
 
 ```text
 hermes-model-fallback/
